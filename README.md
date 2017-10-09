@@ -1,6 +1,7 @@
 # Google Cloud Platform Go Samples
 
 [![Build Status](https://travis-ci.org/GoogleCloudPlatform/golang-samples.svg?branch=master)](https://travis-ci.org/GoogleCloudPlatform/golang-samples)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2Fgolang-samples.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2Fgolang-samples?ref=badge_shield)
 
 This repository holds sample code written in Go that demonstrates the Google
 Cloud Platform.
@@ -23,6 +24,9 @@ Code in this repository is licensed under the Apache 2.0. See [LICENSE](LICENSE)
 <!---
 go list -f '|[{{.Dir}}]({{.Dir}})|{{.Doc}}|' ./... | egrep -v '/(internal|docs/appengine)/' | sed -e "s^$PWD/^^g" >> README.md
 --->
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2Fgolang-samples.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2Fgolang-samples?ref=badge_large)
+
 ## Index
 
 Note: samples under `docs/appengine` are not shown because they mostly do not run, they are just code snippets.
